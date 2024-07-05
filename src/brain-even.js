@@ -52,7 +52,7 @@ export default () => {
     proceed = checkUserAnswer(correctAnswer, userAnswer, NAME);
 
     if (counter === 3) {
-      console.log(`Congratulations, ${NAME}`);
+      console.log(`Congratulations, ${NAME}!`);
     }
 
     counter += 1;
