@@ -1,6 +1,6 @@
-#!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import greet from './greet.js';
+import congratulate from './congratulate.js';
 
 function getRandomNumber(min, max) {
   const minCeiled = Math.ceil(min);
@@ -35,12 +35,13 @@ Let's try again, ${userName}!`);
 const MIN = 1;
 const MAX = 100;
 const NAME = greet();
+const ITERATIONS = 3;
 
 let proceed = true;
 let counter = 1;
 
 export default () => {
-  while (proceed === true && counter < 4) {
+  while (proceed === true && counter < ITERATIONS + 1) {
     if (counter === 1) {
       console.log('Answer "yes" if the number is even, otherwise answer "no".');
     }
@@ -51,8 +52,8 @@ export default () => {
     const userAnswer = getUserAnswer();
     proceed = checkUserAnswer(correctAnswer, userAnswer, NAME);
 
-    if (counter === 3) {
-      console.log(`Congratulations, ${NAME}!`);
+    if (counter === ITERATIONS) {
+        congratulate(NAME);
     }
 
     counter += 1;
