@@ -1,3 +1,3 @@
 export default (userName) => {
-    console.log(`Congratulations, ${userName}!`);
-}
+  console.log(`Congratulations, ${userName}!`);
+};

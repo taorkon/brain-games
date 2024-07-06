@@ -1,3 +1,3 @@
 export default (question) => {
-    console.log(`Question: ${question}`);
-}
+  console.log(`Question: ${question}`);
+};

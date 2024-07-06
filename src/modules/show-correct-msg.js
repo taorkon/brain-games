@@ -1,3 +1,3 @@
 export default () => {
-    console.log('Correct!');
-  }
+  console.log('Correct!');
+};

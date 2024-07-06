@@ -1,3 +1,3 @@
-export default(instruction) => {
-    console.log(instruction);
-}
+export default (instruction) => {
+  console.log(instruction);
+};

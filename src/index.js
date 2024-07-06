@@ -10,7 +10,6 @@ import showCorrectMsg from './modules/show-correct-msg.js';
 import showWrongMsg from './modules/show-wrong-msg.js';
 import congratulate from './modules/congratulate.js';
 
-
 const MIN = 1;
 const MAX = 100;
 const NAME = greet();
@@ -19,26 +18,26 @@ const ITERATIONS = 3;
 let counter = 1;
 
 export default () => {
-    while (counter < ITERATIONS + 1) {
-        if (counter === 1) {
-            showInstruction(gameInstructions['brain-even']);
-        }
-
-        const randNum = getRandomNumber(MIN, MAX);
-        const correctAnswer = isEven(randNum);
-        askQuestion(randNum);
-        const userAnswer = getUserInput('Your answer: ');
-        if (checkUserAnswer(correctAnswer, userAnswer)) {
-            showCorrectMsg();
-        } else {
-            showWrongMsg();
-            break
-        }
-
-        if (counter === ITERATIONS) {
-            congratulate(NAME);
-        }
-
-        counter += 1;
+  while (counter < ITERATIONS + 1) {
+    if (counter === 1) {
+      showInstruction(gameInstructions['brain-even']);
     }
+
+    const randNum = getRandomNumber(MIN, MAX);
+    const correctAnswer = isEven(randNum);
+    askQuestion(randNum);
+    const userAnswer = getUserInput('Your answer: ');
+    if (checkUserAnswer(correctAnswer, userAnswer)) {
+      showCorrectMsg();
+    } else {
+      showWrongMsg();
+      break;
+    }
+
+    if (counter === ITERATIONS) {
+      congratulate(NAME);
+    }
+
+    counter += 1;
+  }
 };
