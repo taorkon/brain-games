@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import app from '../src/brain-even.js';
+import app from '../src/index.js';
 
 app();
