@@ -1,8 +1,9 @@
 import getUserInput from './get-user-input.js';
+import gameMessages from './game-messages.js';
 
 export default function greet() {
-  console.log('Welcome to the Brain Games!');
-  const name = getUserInput('May I have your name? ');
-  console.log(`Hello, ${name}!`);
-  return name;
+  gameMessages.welcome();
+  const userName = getUserInput('May I have your name? ');
+  gameMessages.sayHello(userName);
+  return userName;
 }
