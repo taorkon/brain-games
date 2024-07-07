@@ -19,7 +19,7 @@ let userName = greet();
 
 while (counter < ITERATIONS + 1) {
   if (counter === 1) {
-    gameMessages.gameInstructions.showCalcInstruction();
+    gameMessages.showInstruction('brain-calc');
   }
 
   let generatedExpression = generateCalcExpression();

@@ -5,14 +5,15 @@ export default {
     sayHello(userName){
         console.log(`Hello, ${userName}!`);
     },
-    gameInstructions: {
-        showEvenInstruction(){
+    showInstruction(game){
+        if(game === 'brain-even'){
             console.log('Answer "yes" if the number is even, otherwise answer "no".');
-        },
-        showCalcInstruction(){
+        }
+        if(game === 'brain-calc'){
             console.log('What is the result of the expression?');
-        },
-    },
+        }
+    }
+    ,
     askQuestion(expression){
         console.log(`Question: ${expression}`);
     },
