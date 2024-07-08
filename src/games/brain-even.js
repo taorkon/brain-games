@@ -1,3 +1,5 @@
-import game from '../index.js';
+import launchGame from '../index.js';
 
-// export with nedeed arguments
+export default () => {launchGame('brain-even')};
+
+

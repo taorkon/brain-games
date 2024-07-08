@@ -1,22 +1,15 @@
-import getRandomNumber from "./get-random-number";
-import isEven from "./is-even";
-
-import generateCalcExpression from "./generate-calc-expression";
-import countCalcExpression from "./count-calc-expression";
-import getStringExpression from "./get-string-expression";
+import getEvenQuestion from "./brain-even/get-even-question.js";
+import getCalcQuestion from "./brain-calc/get-calc-question.js";
 
 export default (game) => {
     let question, correctAnswer;
 
-    switch(game){
+    switch (game) {
         case 'brain-even':
-            question = getRandomNumber(1, 100);
-            correctAnswer = isEven(question);
+            [question, correctAnswer] = getEvenQuestion();
             break;
         case 'brain-calc':
-            let generatedExpression = generateCalcExpression();
-            question = getStringExpression(...generatedExpression);
-            correctAnswer = countCalcExpression(...generatedExpression)
+            [question, correctAnswer] = getCalcQuestion();
             break;
     }
 
