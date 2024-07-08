@@ -12,6 +12,9 @@ export default {
     if (game === 'brain-calc') {
       console.log('What is the result of the expression?');
     }
+    if (game === 'brain-gcd'){
+      console.log('Find the greatest common divisor of given numbers.');
+    }
   },
   askQuestion(expression) {
     console.log(`Question: ${expression}`);
