@@ -1,5 +1,6 @@
 import getEvenQuestion from './games/brain-even/get-even-question.js';
 import getCalcQuestion from './games/brain-calc/get-calc-question.js';
+import getGCDQuestion from './games/brain-gcd/get-gcd-question.js';
 
 export default (game) => {
   let question; let
@@ -11,6 +12,9 @@ export default (game) => {
       break;
     case 'brain-calc':
       [question, correctAnswer] = getCalcQuestion();
+      break;
+    case 'brain-gcd':
+      [question, correctAnswer] = getGCDQuestion();
       break;
     default:
       break;
