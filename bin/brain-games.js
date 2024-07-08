@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import launchGame from '../index.js';
+import app from '../src/games/brain-games.js';
 
-export default () => {launchGame('brain-games')};
+app();
