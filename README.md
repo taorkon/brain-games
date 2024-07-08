@@ -7,6 +7,11 @@
 
 [![asciicast](https://asciinema.org/a/mK00YZZDL3gKoJ0oWyasc4L7b.svg)](https://asciinema.org/a/mK00YZZDL3gKoJ0oWyasc4L7b)
 
+## Calculate the Result of an Expression
+<p>Game demo:</p>
+
+[![asciicast](https://asciinema.org/a/Bm4EY600FdaJ92YSGCT5F6S6B.svg)](https://asciinema.org/a/Bm4EY600FdaJ92YSGCT5F6S6B)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/LerTat/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/LerTat/js-starter-project-44/actions)
 
