@@ -1,5 +1,3 @@
 import launchGame from '../index.js';
 
-export default () => {launchGame('brain-even')};
-
-
+export default () => { launchGame('brain-even'); };
