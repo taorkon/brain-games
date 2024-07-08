@@ -12,6 +12,11 @@
 
 [![asciicast](https://asciinema.org/a/Bm4EY600FdaJ92YSGCT5F6S6B.svg)](https://asciinema.org/a/Bm4EY600FdaJ92YSGCT5F6S6B)
 
+## Find the Greatest Common Divisor
+<p>Game demo:</p>
+
+[![asciicast](https://asciinema.org/a/1Xc8XxzyomkktWRDUhDbxr5oI.svg)](https://asciinema.org/a/1Xc8XxzyomkktWRDUhDbxr5oI)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/LerTat/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/LerTat/js-starter-project-44/actions)
 
