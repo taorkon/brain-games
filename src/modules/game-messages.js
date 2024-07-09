@@ -8,15 +8,14 @@ export default {
   showInstruction(game) {
     if (game === 'brain-even') {
       console.log('Answer "yes" if the number is even, otherwise answer "no".');
-    }
-    if (game === 'brain-calc') {
+    } else if (game === 'brain-calc') {
       console.log('What is the result of the expression?');
-    }
-    if (game === 'brain-gcd') {
+    } else if (game === 'brain-gcd') {
       console.log('Find the greatest common divisor of given numbers.');
-    }
-    if (game === 'brain-progression') {
+    } else if (game === 'brain-progression') {
       console.log('What number is missing in the progression?');
+    } else if (game === 'brain-prime') {
+      console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
     }
   },
   askQuestion(expression) {

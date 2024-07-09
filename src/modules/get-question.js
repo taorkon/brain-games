@@ -2,6 +2,7 @@ import getEvenQuestion from './games/brain-even/get-even-question.js';
 import getCalcQuestion from './games/brain-calc/get-calc-question.js';
 import getGCDQuestion from './games/brain-gcd/get-gcd-question.js';
 import getProgressionQuestion from './games/brain-progression/get-progression-question.js';
+import getPrimeQuestion from './games/brain-prime/get-prime-question.js';
 
 export default (game) => {
   let question; let
@@ -19,6 +20,9 @@ export default (game) => {
       break;
     case 'brain-progression':
       [question, correctAnswer] = getProgressionQuestion();
+      break;
+    case 'brain-prime':
+      [question, correctAnswer] = getPrimeQuestion();
       break;
     default:
       break;
