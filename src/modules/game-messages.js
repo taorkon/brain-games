@@ -12,10 +12,10 @@ export default {
     if (game === 'brain-calc') {
       console.log('What is the result of the expression?');
     }
-    if (game === 'brain-gcd'){
+    if (game === 'brain-gcd') {
       console.log('Find the greatest common divisor of given numbers.');
     }
-    if (game === 'brain-progression'){
+    if (game === 'brain-progression') {
       console.log('What number is missing in the progression?');
     }
   },

@@ -1,10 +1,10 @@
-import getRandomNumber from "../brain-even/get-random-number.js";
+import getRandomNumber from '../brain-even/get-random-number.js';
 
 export default () => {
-    let progrFirstEl = getRandomNumber(1, 100);
-    let progrLen = getRandomNumber(5, 11);
-    let progrStep = getRandomNumber(2, 10);
-    let progrX = getRandomNumber(0, progrLen - 1);
+  const progrFirstEl = getRandomNumber(1, 100);
+  const progrLen = getRandomNumber(5, 11);
+  const progrStep = getRandomNumber(2, 10);
+  const progrX = getRandomNumber(0, progrLen - 1);
 
-    return [progrFirstEl, progrLen, progrStep, progrX];
-}
+  return [progrFirstEl, progrLen, progrStep, progrX];
+};
