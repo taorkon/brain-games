@@ -15,6 +15,9 @@ export default {
     if (game === 'brain-gcd'){
       console.log('Find the greatest common divisor of given numbers.');
     }
+    if (game === 'brain-progression'){
+      console.log('What number is missing in the progression?');
+    }
   },
   askQuestion(expression) {
     console.log(`Question: ${expression}`);
