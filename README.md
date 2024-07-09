@@ -1,4 +1,27 @@
-## Games Demos:
+# Brain Games
+This is a set of console Math games in one npm package. Each game follows similar logic: you have to give correct answers to 3 questions to win. You loose after a wrong answer.
+
+### Requirements
+**NPM** 10.7.0
+**Node** 22.1.0
+
+### Installation
+Run in your console:
+```
+npm install brain-games
+```
+[![asciicast](https://asciinema.org/a/wA0nDUJwdrLnCkhylnCJAu3KT.svg)](https://asciinema.org/a/wA0nDUJwdrLnCkhylnCJAu3KT)
+
+### Launch
+Console commands to launch the games:
+* ```brain-games``` Just greeting.
+* ```brain-even``` Is the number even? 
+* ```brain-calc``` Calculate the Result of an Expression.
+* ```brain-gcd``` Find the Greatest Common Divisor.
+* ```brain-progression``` What number is missing in the progression? 
+* ```brain-prime``` Is the Number Prime? 
+
+## Games Demos
 
 #### 🧩 Is the Number Even?
 
