@@ -22,6 +22,10 @@
 
 [![asciicast](https://asciinema.org/a/dpKMD8E80Vp3Qv4heDt2KQx4w.svg)](https://asciinema.org/a/dpKMD8E80Vp3Qv4heDt2KQx4w)
 
+## Is Given Number Prime
+
+[![asciicast](https://asciinema.org/a/Pg59tjkGq7XeQ7rVLfGXXoiUU.svg)](https://asciinema.org/a/Pg59tjkGq7XeQ7rVLfGXXoiUU)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/LerTat/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/LerTat/js-starter-project-44/actions)
 
