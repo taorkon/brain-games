@@ -17,6 +17,11 @@
 
 [![asciicast](https://asciinema.org/a/1Xc8XxzyomkktWRDUhDbxr5oI.svg)](https://asciinema.org/a/1Xc8XxzyomkktWRDUhDbxr5oI)
 
+## What number is missing in the progression?
+<p>Game demo:</p>
+
+[![asciicast](https://asciinema.org/a/dpKMD8E80Vp3Qv4heDt2KQx4w.svg)](https://asciinema.org/a/dpKMD8E80Vp3Qv4heDt2KQx4w)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/LerTat/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/LerTat/js-starter-project-44/actions)
 
