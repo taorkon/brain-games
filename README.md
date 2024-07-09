@@ -1,24 +1,22 @@
-## Is the Number Even?
-<p>Game demo:</p>
+## Games Demos:
+
+#### 🧩 Is the Number Even?
 
 [![asciicast](https://asciinema.org/a/Cq9fL0zUFxMUtahg7wwOkgRe1.svg)](https://asciinema.org/a/Cq9fL0zUFxMUtahg7wwOkgRe1)
 
-## Calculate the Result of an Expression
-<p>Game demo:</p>
+#### 🧩 Calculate the Result of an Expression
 
 [![asciicast](https://asciinema.org/a/Bm4EY600FdaJ92YSGCT5F6S6B.svg)](https://asciinema.org/a/Bm4EY600FdaJ92YSGCT5F6S6B)
 
-## Find the Greatest Common Divisor
-<p>Game demo:</p>
+#### 🧩 Find the Greatest Common Divisor
 
 [![asciicast](https://asciinema.org/a/1Xc8XxzyomkktWRDUhDbxr5oI.svg)](https://asciinema.org/a/1Xc8XxzyomkktWRDUhDbxr5oI)
 
-## What number is missing in the progression?
-<p>Game demo:</p>
+#### 🧩 What number is missing in the progression?
 
 [![asciicast](https://asciinema.org/a/dpKMD8E80Vp3Qv4heDt2KQx4w.svg)](https://asciinema.org/a/dpKMD8E80Vp3Qv4heDt2KQx4w)
 
-## Is Given Number Prime
+#### 🧩 Is the Number Prime?
 
 [![asciicast](https://asciinema.org/a/Pg59tjkGq7XeQ7rVLfGXXoiUU.svg)](https://asciinema.org/a/Pg59tjkGq7XeQ7rVLfGXXoiUU)
 
